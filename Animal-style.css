@@ -1,0 +1,48 @@
+body {
+    margin: 5px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fullbox {
+    border: 1px solid grey;
+    background-color: rgb(252, 250, 250);
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    height: 760px;
+    box-shadow: 10px 10px rgb(204, 203, 203);
+
+}
+
+.contentbox {
+    border: 1px solid grey;
+    background-color: rgb(230, 229, 229);
+    display: inline-block;
+    padding: 5px 10px 10px 10px;
+    width: 378px;
+    height: 385px;
+    align-items: center;
+}
+
+.bearimage {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+.fact {
+    font-size: large;
+    font-style: italic;
+}
+
+strong {
+    font-size: large;
+}
